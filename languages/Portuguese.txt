@@ -1,0 +1,59 @@
+Bem-vindo ao Sudoku!
+Digite um dos seguintes números para realizar ações:
+Jogar
+Configurações
+Comandos
+Sair do jogo
+Como deseja jogar?
+Colocar um Sudoku específico
+Escolher um dos nossos Sudokus já prontos
+Deixar a IA criar um jogo aleatório de Sudoku
+Voltar ao menu principal
+O Sudoku que você colocou é inválido. Confirme se todos os quadrados em branco foram substituídos por 0 e se focê não esqueceu nenhum dos 81 dígitos.
+Digite cada dígito do seu Sudoku sem espaços e com os quadrados em branco substituídos por 0.
+Exemplo: 400763080008000704010000020500607001700040002800209003090000030204000500070984006
+Quem vai tentar resolver o Sudoku?
+Você
+A IA
+l
+L
+c
+C
+checar
+Checar
+limpar
+Limpar
+sair
+Sair
+lista
+Lista
+ajuda
+Ajuda
+Digite lXcX=X, em que l significa linha, c significa coluna e X é um número de 1 a 9.
+Não tem certeza do que fazer? Olhe a lista de comandos no menu principal ou digite ajuda.
+Parabéns! Você completou esse Sudoku!
+Digite sair para voltar ao menu principal.
+Oops, Alguma coisa tá errada! Eu não sei o que é, a gente ainda tá trabalhando nisso...
+Talvez você devesse recomeçar o jogo com o comando limpar.
+Comando desconhecido
+Nenhum erro encontrado!
+Jogo Resetado!
+Lista desse Sudoku:
+Lista de comandos que podem ser usados durante o jogo:
+Checa se algum número está errado.
+Limpa todos os dígitos colocados pelo jogador.
+Sai do jogo, perdendo todo o progresso permanentemente.
+Mostra a lista de dígitos que formam o Sudoku.
+Mostra essa lista.
+Pressione Enter para voltar.
+Resolvendo...
+Resolvido!
+Ah não, a IA não é avançada o suficiente para resolver esse puzzle.
+Poxa, a IA errou! Ela ainda tem alguns bugs, e, por favor, reporte esse, já que talvez a gente ainda não saiba da sua existência!
+Idioma
+Inglês-*Português*-Espanhol
+Mostrar a lista de dígitos que foram o Sudoku quando a IA terminar de resolvê-lo
+No momento:
+Marcar os números que não foram colocados pelo jogador.
+Voltar ao menu principal
+Jogo encerrado.

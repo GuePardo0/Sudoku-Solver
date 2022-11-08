@@ -1,0 +1,3 @@
+aishowstring='false'
+showfixed='false'
+language='english'

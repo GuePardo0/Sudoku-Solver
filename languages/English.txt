@@ -1,0 +1,59 @@
+Welcome to Sudoku!
+Type down one of the following numbers to do actions:
+Play
+Settings
+Commands
+Shut down
+How do you want to play?
+Enter a specific Sudoku game
+Choose one of our pre-made Sudoku games
+Let the AI create a random Sudoku game
+Go back to the main menu
+The game you entered is not valid. Please check if all blank spots are converted to 0 and if you didn't miss any of the 81 digits.
+Please type each digit of your Sudoku game with no spaces and with blank spots converted to 0.
+For example: 400763080008000704010000020500607001700040002800209003090000030204000500070984006
+Who will try to solve it?
+You
+The AI
+r
+R
+c
+C
+check
+Check
+clear
+Clear
+leave
+Leave
+string
+String
+help
+Help
+Type rXcX=X, where r stands for row, c stands for column and X is a number from 1 to 9.
+Not sure what to do? Check out the list of commands in the main menu or type help.
+Contratulations! You've completed this Sudoku!
+Type leave to go back to the main menu.
+Oops, something's wrong! I don't know what's wrong though. That's still a work in progress.
+Maybe you should clear the grid by typing clear.
+Unkown command
+No errors found!
+Grid cleared!
+Sudoku grid:
+List of commands that can be used during the game:
+Checks if any number is wrong.
+Clears all digits put by the player.
+Leaves the game, losing all progress permanently.
+Shows the string of digits that make the grid.
+Shows this list.
+Press Enter to go back.
+Solving...
+Solved!
+Sorry, the AI isn't strong enough to solve this puzzle.
+Sorry, the AI messed up! It's not completely bug-free yet, and please report this bug since we might not be aware of it!
+Language
+*English*-Portuguese-Spanish
+Show the string of digits that make the grid when the AI is done solving it
+Currently:
+Mark numbers that weren't put by the player
+Go back to the main menu
+Game shut down.

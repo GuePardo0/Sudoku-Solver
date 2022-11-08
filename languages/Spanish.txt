@@ -1,0 +1,59 @@
+¡Bienvenido a Sudoku!
+Escriba uno de los siguientes números para realizar acciones:
+Jugar
+Ajustes
+Comandos
+Cerrar
+¿Cómo quieres jugar?
+Colocar un juego de Sudoku específico
+Elige uno de nuestros juegos de Sudoku prediseñados
+Deje que la IA cree un juego de Sudoku aleatorio
+Volver al menú principal
+El juego que ingresaste no es válido. Verifique si todos los espacios en blanco se convierten en 0 y si no se perdió ninguno de los 81 dígitos.
+Escriba cada dígito de su juego de Sudoku sin espacios y con cuadrados en blanco convertidos a 0.
+Por ejemplo: 400763080008000704010000020500607001700040002800209003090000030204000500070984006
+¿Quién intentará resolverlo?
+Tú
+la IA
+f
+F
+c
+C
+verificar
+Verificar
+limpiar
+Limpiar
+abandonar
+Abandonar
+lista
+Lista
+ayuda
+Ayuda
+Escriba fXcX=X, donde f representa fila, c representa columna y X es un número del 1 al 9.
+¿No estás seguro de qué hacer? Consulte la lista de comandos en el menú principal o escriba ayuda.
+¡Felicidades! ¡Has completado este Sudoku!
+Escriba abandonar para volver al menú principal.
+¡Uy, algo anda mal! Aunque no sé qué está mal. Eso es todavía un trabajo en progreso.
+Tal vez deberías limpiar el juego escribiendo limpiar.
+Comando desconocido
+¡No se encontraron errores!
+¡Juego reseteado!
+Lista de este Sudoku:
+Lista de comandos que se pueden usar durante el juego:
+Verifica si algún número estás incorrecto.
+Limpia todos los dígitos puestos por el jugador.
+Abandona el juego, perdiendo todo el progreso permanentemente.
+Muestra la lista de dígitos que forman el Sudoku.
+Muestra esta lista.
+Presione Enter para volver.
+Resolviendo...
+¡Resuelto!
+Lo sentimos, la IA no es lo suficientemente fuerte para resolver este puzzle.
+¡Lo siento, la IA se equivocó! Ella no está completamente libre de errores, ¡e informe a nosotros este error ya que es posible que no lo sepamos!
+Idioma
+Inglés-Portugués-*Español*
+Muestrar la lista de dígitos que forman el Sudoku cuando la IA termina de resolverla
+En el momento:
+Marcar números que no fueron puestos por el jugador
+Volver al menú principal
+Juego cerrado.
