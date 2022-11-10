@@ -10,7 +10,7 @@ from time import sleep
 def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
     #main function
     #runs Sudoku Solver
-    pl="\n"
+    pl="\n"*100
     shutdown=False
     if language == "english":
         languageList=english
@@ -21,16 +21,16 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
     while 1:
         if shutdown == True:
             break
-        print(pl*100)
+        print(pl)
         x=input("%s\n\n\n\n%s\n\n1 %s\n\n2 %s\n\n3 %s\n\n4 %s\n\n" % (languageList[0], languageList[1], languageList[2], languageList[3], languageList[4], languageList[5]))
         if x == "1":
             while 1:
-                print(pl*100)
+                print(pl)
                 x=input("%s\n\n\n\n1 %s\n\n2 %s\n\n3 %s\n\n4 %s\n\n" % (languageList[6], languageList[7], languageList[8], languageList[9], languageList[10]))
                 if x == "1":
                     invcom=0
                     while 1:
-                        print(pl*100)
+                        print(pl)
                         if invcom == 1:
                             print("\n%s\n" % languageList[11])
                             invcom=0
@@ -42,7 +42,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                             a+=1
                         if len(x) == 81 and invcom == 0:
                             while 1:
-                                print(pl*100)
+                                print(pl)
                                 y=input("%s\n\n\n1 %s\n\n2 %s\n\n" % (languageList[14], languageList[15], languageList[16]))
                                 if y == "1":
                                     lista=x
@@ -53,7 +53,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                         if fixed[a] != 0:
                                             fixed[a]=1
                                         a+=1
-                                    print(pl*100)
+                                    print(pl)
                                     if showfixed == "true":
                                         display(grid, fixed)
                                     else:
@@ -66,7 +66,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                                 print(fixed[tf(x[3])+tf(x[1])*9-10])
                                                 if fixed[tf(x[3])+tf(x[1])*9-10] == 0:
                                                     grid[tf(x[3])+tf(x[1])*9-10]=tf(x[5])
-                                                print(pl*100)
+                                                print(pl)
                                                 if showfixed == "true":
                                                     display(grid, fixed)
                                                 else:
@@ -79,7 +79,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                                 else:
                                                     x=input("\n\n%s\n%s\n\n" % (languageList[31], languageList[32]))
                                             else:
-                                                print(pl*100)
+                                                print(pl)
                                                 if showfixed == "true":
                                                     display(grid, fixed)
                                                 else:
@@ -95,7 +95,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                             checkerror="%s" % languageList[38]
                                             if check(grid) == 1:
                                                 checkerror="%s\n%s" % (languageList[35], languageList[36])
-                                            print(pl*100)
+                                            print(pl)
                                             if showfixed == "true":
                                                 display(grid, fixed)
                                             else:
@@ -113,7 +113,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                                 if fixed[a] == 0:
                                                     grid[a]=0
                                                 a+=1
-                                            print(pl*100)
+                                            print(pl)
                                             if showfixed == "true":
                                                 display(grid, fixed)
                                             else:
@@ -127,7 +127,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                             while a != len(grid):
                                                 lista+="%s" % grid[a]
                                                 a+=1
-                                            print(pl*100)
+                                            print(pl)
                                             if showfixed == "true":
                                                 display(grid, fixed)
                                             else:
@@ -140,12 +140,12 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                             else:
                                                 x=input("\n%s\n%s\n\n%s\n%s\n\n" % (languageList[40], lista, languageList[31], languageList[32]))
                                         elif x == "%s" % languageList[29] or x == "%s" % languageList[30]:
-                                            print(pl*100)
+                                            print(pl)
                                             x=input("%s\n\n\n-%s\n%s\n\n-%s\n%s\n\n-%s\n%s\n\n-%s\n%s\n\n-%s\n%s\n\n\n%s" % (languageList[41], languageList[21], languageList[42], languageList[23], languageList[43], languageList[25], languageList[44], languageList[27], languageList[45], languageList[29], languageList[46], languageList[47]))
                                             x=""
                                             help=1
                                         else:
-                                            print(pl*100)
+                                            print(pl)
                                             if showfixed == "true":
                                                 display(grid, fixed)
                                             else:
@@ -163,7 +163,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                                     help=0
                                     break
                                 if y == "2":
-                                    print(pl*100)
+                                    print(pl)
                                     lista=x
                                     grid=createGrid(lista)
                                     display(grid)
@@ -190,14 +190,16 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                         else:
                             invcom=1
                 elif x == "2":
-                    print("meh")
+                    print(pl)
+                    x=input("%s\n\n%s" % (languageList[59], languageList[47]))
                 elif x == "3":
-                    print("meh")
+                    print(pl)
+                    x=input("%s\n\n%s" % (languageList[59], languageList[47]))
                 elif x == "4":
                     break
         elif x == "2":
             while 1:
-                print(pl*100)
+                print(pl)
                 x=input("%s\n\n\n1 %s\n%s\n\n2 %s\n%s %s\n\n3 %s\n%s %s\n\n4 %s\n\n" % (languageList[3], languageList[52], languageList[53], languageList[54], languageList[55], aishowstring, languageList[56], languageList[55], showfixed, languageList[57]))
                 if x == "1":
                     if language == "english":
@@ -222,11 +224,11 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                 elif x == "4":
                     break
         elif x == "3":
-            print(pl*100)
+            print(pl)
             x=input("%s\n\n\n-%s\n%s\n\n-%s\n%s\n\n-%s\n%s\n\n-%s\n%s\n\n-%s\n%s\n\n\n%s" % (languageList[41], languageList[21], languageList[42], languageList[23], languageList[43], languageList[25], languageList[44], languageList[27], languageList[45], languageList[29], languageList[46], languageList[47]))
         elif x == "4":
             shutdown=True
-            print(pl*100)
+            print(pl)
             print("%s\n" % languageList[58])
             break
     return aishowstring, showfixed, language

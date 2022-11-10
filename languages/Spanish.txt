@@ -57,3 +57,4 @@ En el momento:
 Marcar números que no fueron puestos por el jugador
 Volver al menú principal
 Juego cerrado.
+Lo lamentamos, más eso es todavía un trabajo en progreso.

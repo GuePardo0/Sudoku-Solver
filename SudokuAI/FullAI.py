@@ -7,6 +7,8 @@ from SudokuAI.CollumTactics import OCIC
 from SudokuAI.CollumTactics import NSNIC
 from SudokuAI.BoxTactics import OCIB
 from SudokuAI.BoxTactics import NSNIB
+from SudokuAI.BoxTactics import RANB
+from SudokuAI.BoxTactics import CANB
 def FullAI(grid):
     #main funtion
     #runs the AI
@@ -19,6 +21,8 @@ def FullAI(grid):
         pm=OCIR(pm)
         pm=OCIC(pm)
         pm=OCIB(pm)
+        pm=RANB(pm)
+        pm=CANB(pm)
         if pm0 == pm:
             break
     grid=gridConvert(pm)

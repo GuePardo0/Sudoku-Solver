@@ -33,7 +33,7 @@ Digite lXcX=X, em que l significa linha, c significa coluna e X é um número de
 Não tem certeza do que fazer? Olhe a lista de comandos no menu principal ou digite ajuda.
 Parabéns! Você completou esse Sudoku!
 Digite sair para voltar ao menu principal.
-Oops, Alguma coisa tá errada! Eu não sei o que é, a gente ainda tá trabalhando nisso...
+Oops, Alguma coisa tá errada! Eu não sei o que é, ainda estamos trabalhando nisso...
 Talvez você devesse recomeçar o jogo com o comando limpar.
 Comando desconhecido
 Nenhum erro encontrado!
@@ -57,3 +57,4 @@ No momento:
 Marcar os números que não foram colocados pelo jogador.
 Voltar ao menu principal
 Jogo encerrado.
+Desculpa, mas ainda estamos trabalhando nessa parte.

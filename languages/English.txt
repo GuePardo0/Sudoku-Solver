@@ -57,3 +57,4 @@ Currently:
 Mark numbers that weren't put by the player
 Go back to the main menu
 Game shut down.
+Sorry, but this is still a work in progress (WIP).
