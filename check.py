@@ -1,5 +1,5 @@
 #this file is used to check if numbers in a grid are breaking Sudoku rules
-from gpb import gpb
+from getPosition import gpb
 def checksimple(pos, grid):
     #checks if a number is wrong in its row or collum
     #returns 0 if it's right and 1 if it's wrong

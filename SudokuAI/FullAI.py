@@ -1,14 +1,16 @@
 #this is the main file responsible for the AI
 from SudokuAI.Converter import pmConvert
 from SudokuAI.Converter import gridConvert
-from SudokuAI.RowTactics import OCIR
-from SudokuAI.RowTactics import NSNIR
-from SudokuAI.CollumTactics import OCIC
-from SudokuAI.CollumTactics import NSNIC
-from SudokuAI.BoxTactics import OCIB
-from SudokuAI.BoxTactics import NSNIB
-from SudokuAI.BoxTactics import RANB
-from SudokuAI.BoxTactics import CANB
+from SudokuAI.BasicStrategies import NSNIR
+from SudokuAI.BasicStrategies import NSNIC
+from SudokuAI.BasicStrategies import NSNIB
+from SudokuAI.BasicStrategies import OCIR
+from SudokuAI.BasicStrategies import OCIC
+from SudokuAI.BasicStrategies import OCIB
+from SudokuAI.ComplexStrategies import RANB
+from SudokuAI.ComplexStrategies import CANB
+from SudokuAI.ComplexStrategies import NRSB
+from SudokuAI.ComplexStrategies import NCSB
 def FullAI(grid):
     #main funtion
     #runs the AI
@@ -23,6 +25,8 @@ def FullAI(grid):
         pm=OCIB(pm)
         pm=RANB(pm)
         pm=CANB(pm)
+        pm=NRSB(pm)
+        pm=NCSB(pm)
         if pm0 == pm:
             break
     grid=gridConvert(pm)

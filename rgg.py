@@ -1,7 +1,7 @@
 #this file is used to create a random game of sudoku (WIP)
 #for now, it only makes a random full grid
 from check import checksimple
-from gpb import gpb
+from getPosition import gpb
 import random
 def swap(a, b, grid):
     #swaps two digits in a grid
