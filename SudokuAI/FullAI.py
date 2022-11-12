@@ -11,6 +11,10 @@ from SudokuAI.ComplexStrategies import RANB
 from SudokuAI.ComplexStrategies import CANB
 from SudokuAI.ComplexStrategies import NRSB
 from SudokuAI.ComplexStrategies import NCSB
+from SudokuAI.ComplexStrategies import pairsRow
+from SudokuAI.ComplexStrategies import pairsColumn
+from SudokuAI.ComplexStrategies import pairsBox
+from display import display
 def FullAI(grid):
     #main funtion
     #runs the AI
@@ -27,6 +31,9 @@ def FullAI(grid):
         pm=CANB(pm)
         pm=NRSB(pm)
         pm=NCSB(pm)
+        pm=pairsRow(pm)
+        pm=pairsColumn(pm)
+        pm=pairsBox(pm)
         if pm0 == pm:
             break
     grid=gridConvert(pm)

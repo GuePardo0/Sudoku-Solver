@@ -9,7 +9,7 @@ def NSNIR(pm):
     grid=gridConvert(pm)
     a=0
     while a != len(grid):
-        b=gpc(a)
+        b=gpr(a)
         a1=0
         while a1 != 9:
             if b > 0 and pm[a*9+a1] == 1 and a1+1 == grid[a-1]:
@@ -53,7 +53,7 @@ def NSNIC(pm):
     grid=gridConvert(pm)
     a=0
     while a != len(grid):
-        b=gpr(a)
+        b=gpc(a)
         a1=0
         while a1 != 9:
             if b > 7 and pm[a*9+a1] == 1 and a1+1 == grid[a-72]:
@@ -145,7 +145,7 @@ def OCIR(pm):
     #OCIR = one cell in a row
     a=0
     while a != len(pm)/9:
-        b=gpc(a)
+        b=gpr(a)
         a1=0
         while a1 != 9:
             if pm[a*9+a1] == 1:
@@ -196,7 +196,7 @@ def OCIC(pm):
     #OCIC = one cell in a column
     a=0
     while a != len(pm)/9:
-        b=gpr(a)
+        b=gpc(a)
         a1=0
         while a1 != 9:
             if pm[a*9+a1] == 1:

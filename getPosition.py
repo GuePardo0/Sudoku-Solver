@@ -1,7 +1,13 @@
 #this file is used to get the position of a cell inside its row, column or box
 def gpr(pos):
     #gets the position of a cell inside its row
-    #gpr = get position in row
+    #gpc = get position in row
+    while pos > 8:
+        pos-=9
+    return pos
+def gpc(pos):
+    #gets the position of a cell inside its column
+    #gpr = get position in column
     if pos < 9:
         pos=0
     elif pos < 18:
@@ -20,12 +26,6 @@ def gpr(pos):
         pos=7
     else:
         pos=8
-    return pos
-def gpc(pos):
-    #gets the position of a cell inside its column
-    #gpc = get position in column
-    while pos > 8:
-        pos-=9
     return pos
 def gpb(pos):
     #gets the position of a cell inside its box
