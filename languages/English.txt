@@ -48,8 +48,8 @@ Shows this list.
 Press Enter to go back.
 Solving...
 Solved!
-Sorry, the AI isn't strong enough to solve this puzzle.
-Sorry, the AI messed up! It's not completely bug-free yet, and please report this bug since we might not be aware of it!
+Sorry, either the AI isn't strong enough to solve this puzzle or the puzzle is impossible.
+The AI messed up! It's not completely bug-free yet, please report this bug since we might not be aware of it!
 Language
 *English*-Portuguese-Spanish
 Show the string of digits that make the grid when the AI is done solving it

@@ -109,6 +109,7 @@ def check(grid, pos = ""):
     #main function
     #checks if a number is wrong in its row, collum or box
     #checks the whole grid if no pos argument is given
+    #returns 0 if it's right and 1 if it's wrong
     mode=0
     a=0
     if pos == "":

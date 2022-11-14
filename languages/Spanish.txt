@@ -48,8 +48,8 @@ Muestra esta lista.
 Presione Enter para volver.
 Resolviendo...
 ¡Resuelto!
-Lo sentimos, la IA no es lo suficientemente fuerte para resolver este puzzle.
-¡Lo siento, la IA se equivocó! Ella no está completamente libre de errores, ¡e informe a nosotros este error ya que es posible que no lo sepamos!
+Lo sentimos, la IA no es lo suficientemente fuerte para resolver este puzzle o el puzzle es imposible.
+¡La IA se equivocó! Ella no está completamente libre de errores, ¡informe a nosotros este error ya que es posible que no lo sepamos!
 Idioma
 Inglés-Portugués-*Español*
 Muestrar la lista de dígitos que forman el Sudoku cuando la IA termina de resolverla

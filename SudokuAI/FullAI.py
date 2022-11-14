@@ -14,8 +14,7 @@ from SudokuAI.ComplexStrategies import NCSB
 from SudokuAI.ComplexStrategies import pairsRow
 from SudokuAI.ComplexStrategies import pairsColumn
 from SudokuAI.ComplexStrategies import pairsBox
-from display import display
-def FullAI(grid):
+def FullAI(grid, alignedPm=True, pairs=True):
     #main funtion
     #runs the AI
     pm=pmConvert(grid)
@@ -27,13 +26,15 @@ def FullAI(grid):
         pm=OCIR(pm)
         pm=OCIC(pm)
         pm=OCIB(pm)
-        pm=RANB(pm)
-        pm=CANB(pm)
-        pm=NRSB(pm)
-        pm=NCSB(pm)
-        pm=pairsRow(pm)
-        pm=pairsColumn(pm)
-        pm=pairsBox(pm)
+        if alignedPm == True:
+            pm=RANB(pm)
+            pm=CANB(pm)
+            pm=NRSB(pm)
+            pm=NCSB(pm)
+        if pairs == True:
+            pm=pairsRow(pm)
+            pm=pairsColumn(pm)
+            pm=pairsBox(pm)
         if pm0 == pm:
             break
     grid=gridConvert(pm)

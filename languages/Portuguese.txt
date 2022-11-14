@@ -48,8 +48,8 @@ Mostra essa lista.
 Pressione Enter para voltar.
 Resolvendo...
 Resolvido!
-Ah não, a IA não é avançada o suficiente para resolver esse puzzle.
-Poxa, a IA errou! Ela ainda tem alguns bugs, e, por favor, reporte esse, já que talvez a gente ainda não saiba da sua existência!
+Ah não, a IA não é avançada o suficiente para resolver esse puzzle ou o puzzle é impossível.
+A IA errou! Ela ainda tem alguns bugs, por favor, reporte esse, já que talvez a gente ainda não saiba da sua existência!
 Idioma
 Inglês-*Português*-Espanhol
 Mostrar a lista de dígitos que foram o Sudoku quando a IA terminar de resolvê-lo

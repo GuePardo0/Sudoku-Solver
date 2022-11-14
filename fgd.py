@@ -2,6 +2,7 @@
 def fgd(grid):
     #main functions
     #detects if a grid is full
+    #returns 1 if the grid is full and 0 if it's not
     #fgd = full Grid Detector
     full=1
     a=0

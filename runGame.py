@@ -170,7 +170,7 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                                     print("\n\n%s\n" % languageList[48])
                                     grid=FullAI(grid)
                                     sleep(1)
-                                    if fgd(grid) == 1:
+                                    if fgd(grid) == 1 and check(grid) == 0:
                                         print("\n\n%s\n" % languageList[49])
                                     else:
                                         print("\n\n%s\n" % languageList[50])
@@ -193,8 +193,13 @@ def runGame(aishowstring, showfixed, language, english, portuguese, spanish):
                     print(pl)
                     x=input("%s\n\n%s" % (languageList[59], languageList[47]))
                 elif x == "3":
-                    print(pl)
-                    x=input("%s\n\n%s" % (languageList[59], languageList[47]))
+                    while 1:
+                        print(pl)
+                        y=input("Choose the difficulty.\n\n\n1 Easy\n\n2 Medium\n\n3 Hard\n\n 4 Master\n\n")
+                        if y == "1":
+                            grid=rgg(y)
+                        elif y == "2":
+                            grid=rgg(y)
                 elif x == "4":
                     break
         elif x == "2":
